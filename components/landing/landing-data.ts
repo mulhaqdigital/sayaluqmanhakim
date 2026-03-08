@@ -53,7 +53,7 @@ const hero = {
   badge: "Technology · Youth · Community · Sustenance",
   headline: "Building Impact. Empowering Communities. Delivering Change.",
   subheadline:
-    "sayaLuqmanHakim is a multi-disciplinary brand driving real-world impact — from building digital products and training future leaders, to mobilizing volunteers and delivering food to those who need it most.",
+    "sayaLuqmanHakim is a multi-disciplinary individual driving real-world impact — from building digital products and training future leaders, to mobilizing volunteers and delivering food to those who need it most.",
   primaryCta: { label: "Get Involved", href: "#contact" } satisfies LandingCta,
   secondaryCta: { label: "Explore What We Do", href: "#features" } satisfies LandingCta,
 };
@@ -61,7 +61,7 @@ const hero = {
 const about = {
   title: "Who We Are",
   description:
-    "sayaLuqmanHakim is a purpose-driven brand founded on the belief that meaningful change happens at the intersection of technology, people, and community. We operate across four complementary pillars — each designed to address a real gap, and together forming a cohesive ecosystem of empowerment and service.",
+    "sayaLuqmanHakim is a purpose-driven individual who believes meaningful change happens at the intersection of technology, people, and community. Working across four complementary pillars — each designed to address a real gap, and together forming a cohesive ecosystem of empowerment and service.",
   accordion: [
     {
       id: "mission",
@@ -151,7 +151,7 @@ const partners = {
 const story = {
   title: "Our Story",
   description:
-    "sayaLuqmanHakim didn't start as a brand — it started as a belief. A belief that one person, with the right determination, can create meaningful change across multiple dimensions of community life.",
+    "This didn't start as a brand — it started as a belief. A belief that one individual, with the right determination, can create meaningful change across multiple dimensions of community life.",
   milestones: [
     {
       year: "2020",
@@ -357,7 +357,8 @@ const contact = {
   title: "Let's Connect",
   description:
     "Have a question, a project, or just want to learn more about what we do? We'd love to hear from you. Whether you're looking to partner, volunteer, attend a program, or request community support — reach out and someone from our team will get back to you within 48 hours.",
-  email: "hello@sayaluqmanhakim.com",
+  email: "sayaluqmanhakim@gmail.com",
+  phone: "+60 19-470 4808",
   location: "Kuala Lumpur, Malaysia (Serving nationwide)",
   formNote:
     "We typically respond within 1–2 business days. For urgent food distribution requests, please mention it in your subject line.",

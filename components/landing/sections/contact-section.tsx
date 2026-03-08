@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
-import { Send, Mail, MapPin, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react'
+import { Send, Mail, MapPin, Phone, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
@@ -33,6 +33,7 @@ type ContactFormValues = z.infer<typeof contactSchema>
 
 const contactInfo = [
   { icon: Mail, label: 'Email', value: contact.email, href: `mailto:${contact.email}` },
+  { icon: Phone, label: 'Phone', value: contact.phone, href: `tel:${contact.phone.replace(/\s|-/g, '')}` },
   { icon: MapPin, label: 'Location', value: contact.location, href: '#' },
 ]
 
