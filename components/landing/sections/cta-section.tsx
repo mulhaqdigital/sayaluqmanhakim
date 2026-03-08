@@ -10,7 +10,7 @@ const { cta } = landingContent
 
 export function CTASection() {
   return (
-    <section className="relative py-24 sm:py-32 overflow-hidden bg-primary text-primary-foreground">
+    <section className="relative py-16 sm:py-24 lg:py-32 overflow-hidden bg-primary text-primary-foreground">
       <div className="absolute inset-0">
         <DotPattern
           className="opacity-100 bg-[radial-gradient(#ffffff22_1px,transparent_1px)] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]"
@@ -21,10 +21,10 @@ export function CTASection() {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative text-center">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl mb-6">
+        <h2 className="text-2xl font-bold tracking-tight sm:text-4xl lg:text-5xl mb-6">
           {cta.headline}
         </h2>
-        <p className="mx-auto max-w-2xl text-lg opacity-90 mb-10">
+        <p className="mx-auto max-w-2xl text-base sm:text-lg opacity-90 mb-10">
           {cta.subheadline}
         </p>
         <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">

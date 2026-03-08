@@ -39,7 +39,7 @@ export function HeroSection() {
             </Badge>
           </div>
 
-          <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl" data-animate data-animate-delay="1">
+          <h1 className="mb-6 text-3xl font-bold tracking-tight sm:text-5xl lg:text-7xl" data-animate data-animate-delay="1">
             {hero.headline}
           </h1>
 

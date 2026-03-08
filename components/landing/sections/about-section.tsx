@@ -18,7 +18,7 @@ export function AboutSection() {
   return (
     <section id="about" className="py-16 sm:py-24 bg-muted/30">
       <div ref={ref} className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-start max-w-5xl mx-auto">
+        <div className="grid gap-8 lg:grid-cols-2 lg:gap-16 items-start max-w-5xl mx-auto">
           {/* Left — description + accordion */}
           <div data-animate>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">

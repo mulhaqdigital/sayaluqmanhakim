@@ -93,7 +93,13 @@
 }
 
 .animate-logo-scroll {
-  animation: logo-scroll 30s linear infinite;
+  animation: logo-scroll 20s linear infinite;
+}
+
+@media (min-width: 640px) {
+  .animate-logo-scroll {
+    animation-duration: 30s;
+  }
 }
 
 @keyframes accordion-down {

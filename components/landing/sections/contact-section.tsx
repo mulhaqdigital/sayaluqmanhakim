@@ -73,7 +73,7 @@ export function ContactSection() {
           <p className="mt-4 text-lg text-muted-foreground">{contact.description}</p>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-3 max-w-5xl mx-auto">
+        <div className="grid gap-6 lg:grid-cols-3 max-w-5xl mx-auto">
           <div className="space-y-4" data-animate data-animate-delay="1">
             {contactInfo.map((item) => (
               <Card key={item.label}>

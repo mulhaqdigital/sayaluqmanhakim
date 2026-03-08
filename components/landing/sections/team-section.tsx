@@ -28,10 +28,10 @@ export function TeamSection() {
                     key={milestone.year}
                     data-animate
                     data-animate-delay={String((index % 4) + 1)}
-                    className="relative flex gap-6 sm:gap-8"
+                    className="relative flex gap-4 sm:gap-8"
                   >
                     <div className="relative z-10 flex-shrink-0 flex items-start justify-center">
-                      <div className={`w-12 h-12 rounded-full flex items-center justify-center text-xs font-bold text-center leading-tight px-1 ${
+                      <div className={`w-12 h-12 rounded-full flex items-center justify-center text-[10px] font-bold text-center leading-tight px-1 overflow-hidden ${
                         isNext
                           ? 'bg-primary/20 text-primary border border-primary/40 border-dashed'
                           : 'bg-primary text-primary-foreground'

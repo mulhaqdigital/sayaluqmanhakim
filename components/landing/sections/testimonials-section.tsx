@@ -26,7 +26,7 @@ export function TestimonialsSection() {
               className="flex flex-col"
             >
               <CardContent className="pt-8 flex flex-col flex-1">
-                <span className="text-6xl font-serif text-primary leading-none mb-4 select-none">&ldquo;</span>
+                <span className="text-4xl sm:text-6xl font-serif text-primary leading-none mb-4 select-none">&ldquo;</span>
                 <blockquote className="text-sm text-muted-foreground leading-relaxed flex-1">
                   {testimonial.quote}
                 </blockquote>

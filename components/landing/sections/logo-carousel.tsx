@@ -14,7 +14,7 @@ export function LogoCarousel() {
         </p>
       </div>
       <div className="relative flex overflow-hidden">
-        <div className="flex animate-logo-scroll gap-12 items-center whitespace-nowrap">
+        <div className="flex animate-logo-scroll gap-6 sm:gap-12 items-center whitespace-nowrap">
           {allNames.map((name, i) => (
             <div
               key={i}

@@ -23,7 +23,7 @@ export function StatsSection() {
                 <stat.icon className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <div className="text-3xl font-bold tracking-tight">{stat.value}</div>
+                <div className="text-2xl sm:text-3xl font-bold tracking-tight break-words">{stat.value}</div>
                 <div className="text-sm font-semibold mt-0.5">{stat.label}</div>
                 <div className="text-xs text-muted-foreground mt-1">{stat.description}</div>
               </div>
