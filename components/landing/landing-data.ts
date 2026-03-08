@@ -193,7 +193,7 @@ const story = {
       year: "2026 →",
       title: "What's Next",
       description:
-        "Launching a digital skills accelerator for rural youth, scaling food distribution to reach 25,000 families, and building a volunteer management platform to power the next generation of community programs.",
+        "We're creating an innovative platform that streamlines food supply and delivery, empowering volunteers and organizations to feed communities across Malaysia more effectively than ever.",
     },
   ],
 };
