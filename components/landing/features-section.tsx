@@ -23,8 +23,8 @@ export function FeaturesSection({
         <SectionHeading title={title} description={description} />
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {features.map((feature) => (
-            <FeatureCard key={feature.title} feature={feature} />
+          {features.map((feature, index) => (
+            <FeatureCard key={`${feature.title}-${index}`} feature={feature} />
           ))}
         </div>
       </Container>
