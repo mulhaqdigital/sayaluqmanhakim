@@ -4,6 +4,7 @@ import { HeroSection } from './sections/hero-section'
 import { AboutSection } from './sections/about-section'
 import { StatsSection } from './sections/stats-section'
 import { LogoCarousel } from './sections/logo-carousel'
+import { GallerySection } from './sections/gallery-section'
 import { FeaturesSection } from './sections/features-section'
 import { TeamSection } from './sections/team-section'
 import { PricingSection } from './sections/pricing-section'
@@ -22,6 +23,7 @@ export function LandingPageContent() {
       <AboutSection />
       <StatsSection />
       <LogoCarousel />
+      <GallerySection />
       <FeaturesSection />
       <TeamSection />
       <PricingSection />
