@@ -71,12 +71,12 @@ interface Card {
 
 function GalleryCard({ src, alt }: Card) {
   return (
-    <div className="relative flex-shrink-0 w-[280px] sm:w-[340px] lg:w-[400px] h-[180px] sm:h-[220px] lg:h-[260px] rounded-2xl overflow-hidden shadow-md">
+    <div className="relative flex-shrink-0 w-[200px] sm:w-[300px] lg:w-[380px] h-[140px] sm:h-[200px] lg:h-[250px] rounded-2xl overflow-hidden shadow-md">
       <Image
         src={src}
         alt={alt}
         fill
-        sizes="(max-width: 640px) 280px, (max-width: 1024px) 340px, 400px"
+        sizes="(max-width: 640px) 200px, (max-width: 1024px) 300px, 380px"
         className="object-cover transition-transform duration-700 hover:scale-105"
         unoptimized
       />
@@ -115,7 +115,7 @@ export function GallerySection() {
       className="py-16 sm:py-24 overflow-hidden bg-background"
     >
       {/* Header */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 mb-12 text-center">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12 text-center">
         <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-3">
           Inspiration
         </p>
