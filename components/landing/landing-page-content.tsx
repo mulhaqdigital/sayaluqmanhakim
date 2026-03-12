@@ -20,10 +20,10 @@ export function LandingPageContent() {
     <div className="min-h-screen bg-background">
       <LandingNavbar />
       <HeroSection />
+      <GallerySection />
       <AboutSection />
       <StatsSection />
       <LogoCarousel />
-      <GallerySection />
       <FeaturesSection />
       <TeamSection />
       <PricingSection />
