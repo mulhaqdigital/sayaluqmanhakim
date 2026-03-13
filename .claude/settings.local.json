@@ -6,7 +6,8 @@
       "Bash(npm install:*)",
       "Bash(npx tsc:*)",
       "Bash(npm run:*)",
-      "Bash(dir D:\\\\Cursor\\\\landing\\\\public:*)"
+      "Bash(dir D:\\\\Cursor\\\\landing\\\\public:*)",
+      "WebFetch(domain:images.unsplash.com)"
     ]
   }
 }

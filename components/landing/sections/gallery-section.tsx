@@ -4,63 +4,75 @@ import Image from 'next/image'
 
 const ROW_ONE = [
   {
-    src: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80',
-    alt: 'Abstract gradient design',
+    src: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=600&q=80',
+    alt: 'Charity and volunteering',
   },
   {
-    src: 'https://images.unsplash.com/photo-1549490349-8643362247b5?w=600&q=80',
-    alt: 'Geometric minimal architecture',
+    src: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80',
+    alt: 'Conference event',
   },
   {
-    src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
-    alt: 'Modern interior design',
+    src: 'https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc?w=600&q=80',
+    alt: 'Conference event',
   },
   {
-    src: 'https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=600&q=80',
-    alt: 'Creative workspace',
+    src: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&q=80',
+    alt: 'Charity',
   },
   {
-    src: 'https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?w=600&q=80',
-    alt: 'Minimal product photography',
+    src: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600&q=80',
+    alt: 'Volunteering',
   },
   {
-    src: 'https://images.unsplash.com/photo-1523726491678-bf852e717f6a?w=600&q=80',
-    alt: 'Design tools and process',
+    src: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80',
+    alt: 'UI/UX',
   },
   {
-    src: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=80',
-    alt: 'Fluid color shapes',
+    src: 'https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=600&q=80',
+    alt: 'UI/UX',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=600&q=80',
+    alt: 'Tech meetup',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&q=80',
+    alt: 'Tech meetup conference',
+  },
+  {
+    src: '/images/IMG_0860.jpg',
+    alt: 'Children playing with cardboard boxes',
   },
 ]
 
 const ROW_TWO = [
   {
-    src: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&q=80',
-    alt: 'Mountain landscape at night',
+    src: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&q=80',
+    alt: 'UX button UI close-up',
   },
   {
-    src: 'https://images.unsplash.com/photo-1481349518771-20055b2a7b24?w=600&q=80',
-    alt: 'Bright minimal still life',
+    src: 'https://images.unsplash.com/photo-1559223607-a43c990c692c?w=600&q=80',
+    alt: 'Conference audience',
   },
   {
-    src: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80',
-    alt: 'Modern building facade',
+    src: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&q=80',
+    alt: 'Conference speaker',
   },
   {
-    src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80',
-    alt: 'Aerial mountain view',
+    src: 'https://images.unsplash.com/photo-1564121211835-e88c852648ab?w=600&q=80',
+    alt: 'Islamic event',
   },
   {
-    src: 'https://images.unsplash.com/photo-1558979158-65a1eaa08691?w=600&q=80',
-    alt: 'Urban geometry',
+    src: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=600&q=80',
+    alt: 'Media production',
   },
   {
-    src: 'https://images.unsplash.com/photo-1557682250-33bd709cbe85?w=600&q=80',
-    alt: 'Purple gradient abstract',
+    src: 'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=600&q=80',
+    alt: 'UI UX design',
   },
   {
-    src: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=600&q=80',
-    alt: 'Pastel color palette',
+    src: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=600&q=80',
+    alt: 'Tech conference',
   },
 ]
 
